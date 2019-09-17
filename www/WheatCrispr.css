@@ -1,0 +1,38 @@
+
+
+.navbar-brand {
+  font-size: 2.5em;
+  line-height: 20px;
+}
+
+.panel .shiny-input-container {
+  width: 480px;
+}
+
+#matched_gene {
+  margin-bottom: 1em;
+  margin-top: -0.5em;
+}
+
+/* Shiny's wrapper for the select tag doesn't allow for adding tags to
+   the bootstrap form-group.  Which means that the help text I want
+   associated with inputs gets ugly spacing because it's outside of
+   the form group.  This uses some ugly negative margins to get around
+   that. */
+.form-text {
+  margin-top: -.5rem;
+  margin-bottom: 1.5rem;
+}
+
+#input_method {
+  margin-bottom: 1.75rem;
+}
+
+.modal-lg {
+    width: 1280px;
+}
+
+#do_goto_grna {
+    float: right;
+    margin: 2em;
+}
